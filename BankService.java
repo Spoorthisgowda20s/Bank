@@ -23,6 +23,6 @@ public class BankService{
 
 	acc.deposit(500);
 	acc.withdraw(300);
-	print("Final balance :" + acc.balance);
+	System.out.println("Final balance :" + acc.balance);
 	}
 }
