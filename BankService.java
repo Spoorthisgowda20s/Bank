@@ -19,7 +19,7 @@ class BankAccount {
 
 public class BankService{
 	public static void main(String[] args){
-	BankAccount acc = new BankAccount(100);
+	BankAccount acc = new BankAccount(1000);
 
 	acc.deposit(500);
 	acc.withdraw(300);
